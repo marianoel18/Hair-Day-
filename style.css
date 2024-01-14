@@ -45,3 +45,24 @@ ul {
 ul li {
     margin-bottom: 5px;
 }
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #007BFF; 
+}
+
+
+main, section, ul li {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+section:hover, ul li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
